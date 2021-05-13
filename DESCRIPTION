@@ -1,0 +1,16 @@
+Package: jaxsubmit
+Title: Submit R Scripts to JAX Clusters Remotely
+Version: 0.1
+Authors@R: 
+    person(given = "Matthew",
+           family = "Bradley",
+           role=c("aut","cre"),
+           email = "mdb1296@gmail.com"
+           )
+Description: This package allows you to remotely submit R jobs to the Sumner and Winter clusters.
+            See the documentation for the submit() command for more details.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
