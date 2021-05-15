@@ -1,16 +1,23 @@
-Package: jaxsubmit
-Title: Submit R Scripts to JAX Clusters Remotely
-Version: 0.1
+Package: slurmSubmit
+Title: Submit R Scripts to Slurm Clusters Remotely
+Version: 0.2
 Authors@R: 
     person(given = "Matthew",
            family = "Bradley",
            role=c("aut","cre"),
            email = "mdb1296@gmail.com"
            )
-Description: This package allows you to remotely submit R jobs to the Sumner and Winter clusters.
+Description: This package allows you to remotely submit R jobs Slurm clusters. As compared
+            to similar packages, this package implements a formal S4 templates to allow users
+            to save or cache successful job submissions.
             See the documentation for the submit() command for more details.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: sys
+Depends: methods
+Collate: 
+    'classes.R'
+    'slurmSubmit.R'
